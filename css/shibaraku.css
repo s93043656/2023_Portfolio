@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/* ---globel--- */
+* {
+    position: relative;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+	background-color:#000;
+	padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    letter-spacing: .2;
+}
+.wrap{
+    width: 100%;  
+    height: 100%; 
+    overflow: hidden !important;
+    min-width: 1800px; /*手機板需要關掉*/
+}
+.container{
+    width: 100%; /*手機板可以改成90*/
+    height: 100%; /*手機板需要關掉*/
+    margin: 0 auto;
+}
+ul,p,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+/* .position-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+.imgg{
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: inherit;
+}
+.marg0{
+    margin: 0 auto;
+    text-align: center;
+}
+.margt24{margin-top: 24px;}
+.margb24{margin-bottom: 24px;}
+
+.font-16{
+    font-size: 16px;
+    font-weight: 400;
+}
+.font-18{
+    font-size: 18px;
+    font-weight: 500;
+}
+.font-22{
+    font-size: 22px;
+    font-weight: 500;
+}
+.font-28{
+    font-size: 28px;
+    font-weight: 500;
+}
+/* ----------------------- 下拉選單 ----------------------- */
+select{
+    color: #fff;
+    background-color: #000;
+    padding: 8px 10px;
+    border: 1px solid #ff8e06;
+}
+select:focus-visible{
+    outline: 0;
+}
+/* ----------------------- 卷軸----------------------- */
+::-webkit-scrollbar {width: 5px;height: 5px;}
+::-webkit-scrollbar-thumb {background: #783300;}
+::-webkit-scrollbar-track {background: #d7d7d7;}
+/* ----------------------- pop----------------------- */
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 20;
+    color: #fff;
+}
+.close{
+    position: fixed;
+    cursor: pointer;
+    right: -3.4375rem;
+    top: 0;
+    transition: 0.3s linear;
+    z-index: 20;
+    background-image: url('..');
+}
+.popbg{
+    position: fixed;
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0,0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 21;
+}
+.popti{
+    margin: 1.25rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popinfo{padding: 0 1.25rem 1.25rem 1.25rem;}
+.popinfo li{margin: .625rem 0;}
+#p4-pop-pre .popinfo>div{
+    width: 700px;
+    height: 475px;
+    overflow: auto;
+}
+/* ----------------------- pop----------------------- */
+
+/* -----------------------menu指哪換哪的----------------------- */
+.menubox{
+    width: 100px;
+    height: 235px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.menubox ul li.active{
+    opacity: 75%;
+}
+.menubtn01.active .notoif-16,.menubtn02.active .notoif-16,.menubtn03.active .notoif-16{
+    color: #8f8f8f;
+}
+/* -----------------------menu指哪換哪的----------------------- */
+
+/* ----------------------- 表格----------------------- */
+table{
+    width: 620px;
+    margin: 0 auto;
+    border-collapse:collapse;
+    border: none;
+    text-align: cenappearter;
+}
+th{
+    background-color: #dd9951;
+    border: #dd9951 1px solid;
+    padding: .625rem;
+    color:#000;
+}
+td{
+    border-collapse:separate;
+    padding: .3125rem;
+    background-color: #fff0b3;
+    border: #dd9951 1px solid;
+    color:#000;
+} 
+.tablel{text-align: left;}
+.tablec{text-align: center;}
+/* ----------------------- 表格----------------------- */
+
+
