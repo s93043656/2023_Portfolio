@@ -323,6 +323,12 @@ body {
   background-color: #FFF;
 }
 
+@media all and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -356,14 +362,32 @@ h1 {
   font-weight: bold;
 }
 
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
 h2 {
   font-size: 26px;
   font-weight: bold;
 }
 
+@media all and (max-width: 768px) {
+  h2 {
+    font-size: 22px;
+  }
+}
+
 h3 {
   font-size: 18px;
   font-weight: bold;
+}
+
+@media all and (max-width: 768px) {
+  h3 {
+    font-size: 14px;
+  }
 }
 
 .main_box, .design_main_box {
