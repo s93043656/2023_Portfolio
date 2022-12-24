@@ -539,6 +539,7 @@ section {
 
 .main_box .main_info h3, .design_main_box .main_info h3 {
   color: #008eff;
+  text-align: center;
 }
 
 .main_box .main_info ul, .design_main_box .main_info ul {
