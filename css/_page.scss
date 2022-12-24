@@ -153,6 +153,9 @@ section{
     height: 200px;
     padding: 2vh;
     text-decoration:none;
+    @include sm{
+        height: 150px;
+    }
     h2,div,&:hover h2,&:hover div{
         @extend %hover;
     }
@@ -173,6 +176,9 @@ section{
     h2{
         color: $main_color;
         margin-top: 7vh;
+        @include sm{
+            margin-top: 4vh;
+        }
     }
     .line{
         margin: 1vh auto;

@@ -612,6 +612,12 @@ section {
   text-decoration: none;
 }
 
+@media all and (max-width: 768px) {
+  .design_main_box {
+    height: 150px;
+  }
+}
+
 @media all and (max-width: 1024px) {
   .design_main_box {
     width: 100%;
@@ -633,6 +639,12 @@ section {
 .design_main_box h2 {
   color: #008eff;
   margin-top: 7vh;
+}
+
+@media all and (max-width: 768px) {
+  .design_main_box h2 {
+    margin-top: 4vh;
+  }
 }
 
 .design_main_box .line {
