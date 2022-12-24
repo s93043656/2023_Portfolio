@@ -416,6 +416,12 @@ section {
   padding: 0 1vh;
 }
 
+@media all and (max-width: 1440px) {
+  .navbar #navbarNav ul {
+    padding: 0;
+  }
+}
+
 .navbar #navbarNav ul li {
   margin: 0 1.5vh;
 }
@@ -477,6 +483,7 @@ section {
 
 .subti_box {
   text-align: center;
+  margin-bottom: 3vh;
 }
 
 .subti_box h1 {
@@ -508,7 +515,7 @@ section {
 
 @media all and (max-width: 1024px) {
   .main_box, .design_main_box {
-    padding: 0 5vh 5vh 5vh;
+    padding: 0 2vh 5vh 2vh;
     margin: 3vh 0 0 0;
   }
 }
@@ -522,6 +529,12 @@ section {
   border-radius: 3vh 3vh 0 0;
   margin: 5vh;
   width: 40%;
+}
+
+@media all and (max-width: 425px) {
+  .main_box .main_infoti, .design_main_box .main_infoti {
+    margin: 2vh;
+  }
 }
 
 .main_box .main_infoti::after, .design_main_box .main_infoti::after {
@@ -539,7 +552,13 @@ section {
 
 .main_box .main_info h3, .design_main_box .main_info h3 {
   color: #008eff;
-  text-align: center;
+}
+
+@media all and (max-width: 425px) {
+  .main_box .main_info h3, .design_main_box .main_info h3 {
+    text-align: center;
+    margin-top: 1vh;
+  }
 }
 
 .main_box .main_info ul, .design_main_box .main_info ul {
