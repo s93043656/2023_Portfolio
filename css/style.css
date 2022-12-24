@@ -435,8 +435,8 @@ section {
 
 @media all and (max-width: 425px) {
   #page01.container {
-    height: 65vh;
-    padding-top: 40vh;
+    height: 75vh;
+    padding-top: 50vh;
   }
 }
 
