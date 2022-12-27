@@ -64,11 +64,15 @@ h3{
     }
 }
 
+
 %box{
     border-radius: 5vh;
     border: 10px solid $m_ll_color;
     background-color: #fff;
     box-shadow: 11px 11px 35px #e9e9e9;
+    @include sm{
+        border: 5px solid $m_ll_color;
+    }
 }
 
 %hover{

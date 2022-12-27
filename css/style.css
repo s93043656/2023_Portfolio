@@ -398,6 +398,12 @@ h3 {
           box-shadow: 11px 11px 35px #e9e9e9;
 }
 
+@media all and (max-width: 768px) {
+  .main_box, .design_main_box {
+    border: 5px solid #dbf3ff;
+  }
+}
+
 .navbar #navbarNav ul, .design_main_box h2, .design_main_box div, .design_main_box:hover h2, .design_main_box:hover div, .bgc {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -514,7 +520,7 @@ section {
   color: #008eff;
 }
 
-.subti_box h4 {
+.subti_box h3 {
   color: #aaaaaa;
 }
 
